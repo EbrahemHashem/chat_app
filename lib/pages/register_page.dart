@@ -20,7 +20,7 @@ class RegisterPage extends StatelessWidget {
         child: ListView(
           children: [
             const SizedBox(
-              height: 20,
+              height: 45,
             ),
             Image.asset(
               'assets/images/scholar.png',
@@ -40,7 +40,7 @@ class RegisterPage extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              height: 20,
+              height: 45,
             ),
             const Text(
               'Register',
@@ -48,18 +48,6 @@ class RegisterPage extends StatelessWidget {
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
               ),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            CustomTextField(
-              hintText: 'First Name',
-            ),
-            const SizedBox(
-              height: 15,
-            ),
-            CustomTextField(
-              hintText: 'Last Name',
             ),
             const SizedBox(
               height: 15,
@@ -71,7 +59,7 @@ class RegisterPage extends StatelessWidget {
               hintText: 'Email',
             ),
             const SizedBox(
-              height: 15,
+              height: 45,
             ),
             CustomTextField(
               onChanged: (data) {
@@ -80,13 +68,7 @@ class RegisterPage extends StatelessWidget {
               hintText: 'Password',
             ),
             const SizedBox(
-              height: 15,
-            ),
-            CustomTextField(
-              hintText: 'Reapeat Password',
-            ),
-            const SizedBox(
-              height: 15,
+              height: 45,
             ),
             CustomButton(
               onTap: () async {
@@ -120,7 +102,7 @@ class RegisterPage extends StatelessWidget {
               Title: 'SIGN UP',
             ),
             const SizedBox(
-              height: 15,
+              height: 45,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -144,7 +126,7 @@ class RegisterPage extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              height: 30,
+              height: 45,
             ),
           ],
         ),

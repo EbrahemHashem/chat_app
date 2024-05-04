@@ -20,7 +20,7 @@ class SchoolarChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        RegisterPage.id: (context) =>  RegisterPage(),
+        RegisterPage.id: (context) => RegisterPage(),
       },
       debugShowCheckedModeBanner: false,
       home: const LoginPage(),
