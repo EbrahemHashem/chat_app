@@ -23,7 +23,7 @@ class SchoolarChat extends StatelessWidget {
       routes: {
         LoginPage.id: (context) => const LoginPage(),
         RegisterPage.id: (context) => RegisterPage(),
-        ChatPage.id: (context) => const ChatPage(),
+        ChatPage.id: (context) => ChatPage(),
       },
       initialRoute: LoginPage.id,
       debugShowCheckedModeBanner: false,
